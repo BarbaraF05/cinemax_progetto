@@ -1,0 +1,86 @@
+/*Font Family*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Navbar */
+.navbar-dark .navbar-brand {
+    color:#fdfcfb;
+    font-size: 1.5rem;
+}
+
+.navbar-dark .nav-link {
+    color: #f8f9fa;
+}
+
+.navbar-dark .nav-link.active {
+    color: #17a2b8;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffc107;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('../images/popcorn.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #f8f9fa;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    height: 500px;
+    position: relative;
+}
+
+.hero-section h1 {
+    color: #f3f3ea;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    font-weight:bold;
+}
+
+.hero-section h5 {
+    font-size: 2rem;
+    color: #f3f3ea;
+    font-weight: bold;
+    border: 5px;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 5;
+} 
+
+
+/* Review Section */
+ .review {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.review p {
+    margin-bottom: 0.5rem;
+}
+
+
+.star-rating .fa-star {
+    color: #ffc107;
+}
+
+
+.footer-section {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.footer-section p {
+    color: #e2e234;
+    margin: 0;
+}
